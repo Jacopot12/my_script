@@ -1,2 +1,2 @@
 # my_script
-Set of script for my bioinformatic purposes
+Set of scripts for my bioinformatic purposes
