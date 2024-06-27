@@ -3,6 +3,7 @@
 #What the script does:
 #The script insert a variable number of SNPs in a file fasta with several sequences
 #The aim is to generate a mock dataset of sequencing reads from an original one
+#The script does not allow an SNP to be entered twice or more at the same location, but it allow a base substitution with the same base
 
 #Usage: ./randomSNPs.sh [file.fasta] [% SNPs mutation] [outprefix] [compression]
 #Example: ./randomSNPs.sh mysequneces.fasta 0.2 out c
