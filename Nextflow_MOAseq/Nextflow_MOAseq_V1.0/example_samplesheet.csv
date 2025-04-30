@@ -1,3 +1,0 @@
-sampleId,forward_read,reverse_read
-gut,/home/jacopo/Scrivania/Nextflow_MOAseq_V1.0/example_data/CML277d2_1.fq.gz,/home/jacopo/Scrivania/Nextflow_MOAseq_V1.0/example_data/CML277d2_2.fq.gz
-liver,/home/jacopo/Scrivania/Nextflow_MOAseq_V1.0/example_data/CML277w2_1.fq.gz,/home/jacopo/Scrivania/Nextflow_MOAseq_V1.0/example_data/CML277w2_2.fq.gz
