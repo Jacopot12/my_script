@@ -1,0 +1,9 @@
+{
+    "samplesheet": "/home/jacopo/Scrivania/Nextflow_MOAseq_V1.2/samplesheet.csv",
+    "genome": "/home/jacopo/Scrivania/Nextflow_MOAseq_V1.2/example_data/mais_chr1.fa",
+    "genome_index": null,
+    "annotation": "NO_FILE",
+    "outdir": "results",
+    "sample_name": null,
+    "rep_merged": false
+}
