@@ -1,13 +1,1 @@
-These are the nextflow pipeline parameters
-
-**samplesheet**: path to the file.csv with the samples (string)
-**genome**: path to the genome file in fasta format (string)
-**genome_index**: path to the STAR genome index folder (string), default null
-**annotation**: path to the annotation file in gtf format (string), default "NO_FILE"
-**outdir**: path to the output directory (string)
-**rep_merged**: merge the sample in the samplesheet (boolean), default false
-**sample_name**: name of the sample if the samples in the samplesheet are merged (string), default null
-
-_rep_merged_ and _sample_name_ parameters work only in Nextflow_MOAseq_V1.1 and later versions.
-
-All other parameter for the softwares used need to be modify from the modules scripts.
+In these folders there is the MOA-seq pipeline developed on the bases of this paper Engelhorn, et al. "Genetic variation at transcription factor binding sites largely explains phenotypic heritability in maize" Nature Genetics (2025)". I'll make a definitive version as soon as possible, but for now, please refer to the last version, that is  
