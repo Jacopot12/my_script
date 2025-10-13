@@ -1,2 +1,3 @@
 # my_scripts
-This is a repository of the script that I generate for my bioinformatic purposes.
+This is a repository of the scripts I create for my bioinformatics projects.
+For any questions contact me: jacopo.tartaglia@yahoo.com
