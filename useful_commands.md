@@ -181,3 +181,10 @@ echo $(zcat file.fastq.gz | wc -l)/4 | bc
 ```bash
 samtools view -@ 20 -b -o fixed.bam corrupted.bam
 ```
+## Docker
+
+#### Run a container
+
+```bash
+docker run --rm -v "$(pwd):/data" quay.io/biocontainers/ngmerge:0.3--0 NGmerge --help
+```
