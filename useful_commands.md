@@ -186,5 +186,5 @@ samtools view -@ 20 -b -o fixed.bam corrupted.bam
 #### Run a container
 
 ```bash
-docker run --rm -v "$(pwd):/data" quay.io/biocontainers/ngmerge:0.3--0 NGmerge --help
+docker run --rm -v "$(pwd):/data" -u $(id -u):$(id -g) quay.io/biocontainers/ngmerge:0.3--0 NGmerge --help
 ```
