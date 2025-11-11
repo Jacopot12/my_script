@@ -604,6 +604,13 @@ echo $(zcat file.fastq.gz | wc -l)/4 | bc
 samtools view -@ 20 -b -o fixed.bam corrupted.bam
 ```
 
+#### Rename headers in fastq.gz (bioawk)
+
+```bash
+zcat file_2.fastq.gz | bioawk -c fastx '{print "@" "SRR19651167." NR "/2"; print $seq; print "+"; print $qual}' | gzip > renamed_file_2.fastq.gz
+```
+
+
 ## Docker
 
 #### Run a container
@@ -611,3 +618,15 @@ samtools view -@ 20 -b -o fixed.bam corrupted.bam
 ```bash
 docker run --rm -v "$(pwd):/data" -u $(id -u):$(id -g) quay.io/biocontainers/ngmerge:0.3--0 NGmerge --help
 ```
+
+## Download reads
+
+#### Download with fastq-dump (SRA toolkit)
+
+```bash
+fastq-dump --gzip --origfmt --split-files --skip-technical --defline-seq '@$ac.$sn.$si/$ri' SRRXXXXXXX
+```
+
+
+
+
