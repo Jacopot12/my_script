@@ -39,7 +39,7 @@ du -h
 wget can handle HTTP and FTP links
 
 ```bash
-wget https://github.com/jacopoM28/CompOmics_2022/archive/refs/heads/main.zip
+wget https://github.com/Jacopot12/readsQC_trimming.sh
 ```
 
 **-O saves the file with its original filename**
