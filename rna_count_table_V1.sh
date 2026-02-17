@@ -61,7 +61,7 @@ for (( i=0; i<6; i++ )); do
     j=$(( $i + 1))
     eval "var_file=\$file$j"
     eval "var_name=\$name$j"
-    awk 'NR > 4 ' ../"${var_file}" | awk '{print $3}' > ${var_name}_countTable_reverse.tsv
+    awk 'NR > 4 ' ../"${var_file}" | awk '{print $4}' > ${var_name}_countTable_reverse.tsv
     wc -l ${var_name}_countTable_reverse.tsv >> check_line.txt
 
 done
